@@ -1,12 +1,20 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Slider from '../components/Slider';
+import WelcomeScreen from '../components/WelcomeScreen';
+
+
+
 
 
 const Home = () => {
   return (
     <> 
-        <Navbar />
+      <Navbar />
+
+      <WelcomeScreen />
       
+      <Slider />
         
     </>
     
