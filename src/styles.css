@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body{
-  
+  background-color: #C0C0C0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./images/background.jpg);
+  color: white;
 }
+
+.wrapper_carousel {
+    height: 1580px;
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding-left: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-top: auto;
+    
+    @media (max-width: 768px) {
+        margin-top: 1rem; /* Adjust margin for smaller screens */
+    }
+}
+
